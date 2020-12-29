@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgb(72,156, 193);
+} 
+
+#root {
+    background-color: white;
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.title {
+      color: rgb(51, 51, 51);
+      font-size: 30px;
+      text-transform: uppercase;
+      padding: 10px;
+  }
+  
+  .item {
+    color: #489CC1;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+  }
+  
+  .item:hover {
+    background: #87CEFA;
+  }
+  
+  .subscribe {
+    display: flex;
+    justify-content: center;
+  }
+
+  #myInput {
+    margin: 0;
+    text-align: center;
+    border: 1px solid rgb(72,156, 193);
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #myInput::focus-within {
+    border: 1px solid rgb(185, 41, 41);
+  }
+  
+  .addBtn {
+    max-width: 45px;
+    padding: 11px;
+    margin-left: 3px;
+    width: 7%;
+    background:rgb(72,156, 193);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+
+
+.item {
+    display: flex;
+    justify-content: space-between;
+
+    width: 53%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.text--through {
+    text-decoration: line-through;
+}
